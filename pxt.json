@@ -3,11 +3,9 @@
     "description": "",
     "dependencies": {
         "core": "*",
-        "radio": "*",
-        "motor": "github:dfrobot/pxt-motor#76b617b9bb4acd5c7a1370482424ccb032d3bb4e",
-        "gamePad": "github:dfrobot/pxt-gamepad#94bebffec393eac06f17370a75867d850003beb9",
         "microphone": "*",
-        "BitBuggy": "github:pisupply/pxt-bitbuggy#v2.1.2"
+        "bluetooth": "*",
+        "RingbitCar": "github:tinkertanker/pxt-ringbitcar#v3.1.1"
     },
     "files": [
         "main.blocks",
@@ -19,5 +17,6 @@
     ],
     "supportedTargets": [
         "microbit"
-    ]
+    ],
+    "preferredEditor": "blocksprj"
 }
