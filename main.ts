@@ -30,6 +30,13 @@ gamePad.onEvent(GamerBitPin.P13, GamerBitEvent.Up, function () {
     BitBuggy.brake()
     radio.sendNumber(0)
 })
+basic.showLeds(`
+    # # # # .
+    # # . . .
+    # . # . .
+    # . . # .
+    . . . . #
+    `)
 radio.setGroup(1)
 BitBuggy.init_wheel(AnalogPin.P1, AnalogPin.P2)
 BitBuggy.freestyle(0, 0)
